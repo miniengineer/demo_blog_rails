@@ -46,7 +46,6 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-
 end
 
 group :development do
@@ -60,6 +59,8 @@ group :development do
   gem 'guard', '~> 2.14', '>= 2.14.1'
   # reload the browser after changes to assets/helpers/tests 
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+
+  gem 'rubocop-rails', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
