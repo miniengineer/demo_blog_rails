@@ -46,6 +46,7 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'binding_of_caller'
   gem 'pry-byebug'
+  gem 'pry-doc'
   gem 'pry-rails'
 
   # Adds support for Capybara system testing and selenium driver
